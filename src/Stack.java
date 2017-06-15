@@ -50,7 +50,7 @@ public class Stack <T> {
     
     //Add a retrieve method (Note peek at top of stack only
     public void showTop(){
-        if(!isEmpty()) System.out.println(top.data);
+        if(!isEmpty()) System.out.println("Top of the stack = " + top.data);
        
     }
     
